@@ -1,0 +1,47 @@
+* {
+    font-family: "JetBrains Mono";
+    color: #000000;
+}
+
+.cubes-wrapper {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+}
+
+.cube-wrapper {
+    display: none;
+    transform: translate(0px,5vw);
+}
+
+.info-wrapper {
+    position: relative;
+    width: max-content;
+    left: 32vw;
+    top: 9vw;
+}
+
+.info-wrapper h1 {
+    font-size: 6vw;
+}
+
+.info-wrapper .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.info-wrapper .content-wrapper div p {
+    font-size: 1.3vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+}
+
+.info-wrapper .content-wrapper .content-desc {
+    max-width: 40vw;
+    text-wrap: normal;
+    font-size: 1.1vw;
+}
+

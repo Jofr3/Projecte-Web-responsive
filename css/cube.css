@@ -1,0 +1,44 @@
+.cube-wrapper {
+    --cube-height: 50vw;
+    --cube-diff: 13.8748;
+    --cube-side-diff: 52;
+    --cube-left-diff: 81;
+    --cube-top-diff: 99;
+    --cube-width-calc: calc((var(--cube-height) / 100) * var(--cube-diff));
+    --cube-width: calc(var(--cube-height) - var(--cube-width-calc));
+    --cube-side-calc: calc((var(--cube-height) / 100) * var(--cube-side-diff));
+    --cube-side: calc(var(--cube-height) - var(--cube-side-calc));
+    --cube-left-calc: calc((var(--cube-height) / 100) * var(--cube-left-diff));
+    --cube-left: calc(var(--cube-height) - var(--cube-left-calc));
+    --cube-top-calc: calc((var(--cube-height) / 100) * var(--cube-top-diff));
+    --cube-top: calc(var(--cube-height) - var(--cube-top-calc));
+
+    height: var(--cube-height);
+    width: var(--cube-width);
+}
+
+.cube {
+    position: relative;
+    left: var(--cube-left);
+    top: var(--cube-top);
+}
+
+.side {
+    height: var(--cube-side);
+    width: var(--cube-side);
+    position: absolute;
+}
+
+.top {
+    background: #004AAD;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+.left {
+    background: #38B6FF;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+.right {
+    background: #5271FF;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+

@@ -1,0 +1,94 @@
+* {
+    font-family: "JetBrains Mono";
+    color: #000000;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    height: 10000px;
+}
+
+.ube-title-wrapper {
+    width: max-content;
+}
+
+.cube-wrapper {
+    display: none;
+    margin-top: 9vh;
+    position: sticky;
+    top: 9vh;
+}
+
+.sec-cube-wrapper {
+    margin-top: 9vh;
+    position: sticky;
+}
+
+.title-wrapper {
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    /*position: absolute;*/
+}
+
+figure#fig1 {
+    position: relative;
+    left: -85%;
+    top: 64px;
+}
+
+figure#fig2 {
+    position: relative;
+    top: 47px;
+    right: -70%;
+}
+
+h1#title1 {
+    display: none;
+    font-size: 11vw;
+    mix-blend-mode: soft-light;
+}
+
+h1#title2 {
+    display: none;
+    font-size: 11vw;
+    mix-blend-mode: soft-light;
+}
+
+figure#sec-cube-figure {
+    position: fixed;
+    top: 95vh;
+}
+
+figure#fir-cube-figure {
+    position: fixed;
+    top: -90vh;
+}
+
+.menu-title a {
+    display: none;
+    font-size: 11vw;
+    position: absolute;
+    right: -75vw;
+    color: black;
+    text-decoration: none;
+}
+
+.inici {
+    top: 15vw;
+    left: 41vw;
+}
+
+.llistat {
+    top: 13vw;
+    right: -59vw !important;
+
+}
+
+.sobre-jo {
+    top: 18vw;
+    right: -95vw !important;
+}

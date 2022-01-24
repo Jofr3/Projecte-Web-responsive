@@ -1,0 +1,48 @@
+.menu-wrapper {
+    position: absolute;
+    right: 0;
+    margin: 1vw;
+}
+
+.menu-button {
+    background: none;
+    border: 2px solid black;
+    border-radius: 0;
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-button:hover {
+    background: black;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.menu-button:hover::after {
+    color: white;
+}
+
+.menu-button::after {
+    color: #000;
+}
+
+.menu-button:focus {
+    background: black;
+    border: 2px solid rgba(255, 255, 255, 0);
+}
+.menu-button:focus::after {
+    color: white;
+}
+
+.dropdown-menu {
+    background: none;
+    border: 2px solid black;
+    border-radius: 0;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: black;
+    color: white;
+
+}

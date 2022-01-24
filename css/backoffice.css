@@ -1,0 +1,49 @@
+* {
+    font-family: "JetBrains Mono";
+    color: #000000;
+}
+
+main {
+    margin-top: 0;
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.forms-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.form-back {
+    padding: 20px;
+}
+
+.inputs-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.inputs-wrapper label {
+    padding: 10px;
+}
+
+.inputs-wrapper label input, button {
+    background: none;
+    border: 2px solid black;
+}
+
+div .line {
+    margin-top: 20px;
+    opacity: 1;
+    color: black;
+    height: 1px;
+}
+
+.confirma {
+    margin: 20px;
+    width: 50%;
+}
+

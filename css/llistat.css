@@ -1,0 +1,49 @@
+* {
+    font-family: "JetBrains Mono";
+    color: #000000;
+}
+
+.cubes-wrapper {
+    margin-left: 7vw;
+    margin-right: 7vw;
+}
+
+.cube-wrapper {
+    display: none;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    margin-left: -3vw;
+}
+
+.info-wrapper {
+    position: relative;
+    width: max-content;
+    top: 8vw;
+    left: 29vw;
+}
+
+.info-wrapper h1 {
+    font-size: 5vw;
+}
+
+.info-wrapper p {
+    font-size: 1.5vw;
+    margin-bottom: -0.1vw;
+}
+
+.mes-info-wrapper {
+    position: relative;
+    width: max-content;
+    top: 2vw;
+    left: 54vw;
+}
+
+.mes-info-wrapper button {
+    background-color: transparent;
+}
+
+.mes-info-wrapper button a {
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
